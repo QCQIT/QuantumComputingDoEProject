@@ -34,6 +34,32 @@ p { text-indent: 0px; }
 hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
 p.caption { width: 80%; font-style: normal; text-align: left; }
 hr.figure { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+.alert-text-small   { font-size: 80%;  }
+.alert-text-large   { font-size: 130%; }
+.alert-text-normal  { font-size: 90%;  }
+.alert {
+  padding:8px 35px 8px 14px; margin-bottom:18px;
+  text-shadow:0 1px 0 rgba(255,255,255,0.5);
+  border:1px solid #bababa;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  color: #555;
+  background-color: #f8f8f8;
+  background-position: 10px 5px;
+  background-repeat: no-repeat;
+  background-size: 38px;
+  padding-left: 55px;
+  width: 75%;
+ }
+.alert-block {padding-top:14px; padding-bottom:14px}
+.alert-block > p, .alert-block > ul {margin-bottom:1em}
+.alert li {margin-top: 1em}
+.alert-block p+p {margin-top:5px}
+.alert-notice { background-image: url(https://cdn.rawgit.com/doconce/doconce/master/bundled/html_images/small_gray_notice.png); }
+.alert-summary  { background-image:url(https://cdn.rawgit.com/doconce/doconce/master/bundled/html_images/small_gray_summary.png); }
+.alert-warning { background-image: url(https://cdn.rawgit.com/doconce/doconce/master/bundled/html_images/small_gray_warning.png); }
+.alert-question {background-image:url(https://cdn.rawgit.com/doconce/doconce/master/bundled/html_images/small_gray_question.png); }
 
 div { text-align: justify; text-justify: inter-word; }
 </style>
@@ -44,11 +70,18 @@ div { text-align: justify; text-justify: inter-word; }
 <!-- tocinfo
 {'highest level': 2,
  'sections': [('Tentative agenda', 2, None, 'tentative-agenda'),
-              ('Overview of budget', 2, None, 'overview-of-budget'),
-              ('Present students and what we have done till now',
+              ('Overview of budget and students',
                2,
                None,
-               'present-students-and-what-we-have-done-till-now'),
+               'overview-of-budget-and-students'),
+              ('Present students, funding status and planned defense',
+               2,
+               None,
+               'present-students-funding-status-and-planned-defense'),
+              ('We need to update what we have published',
+               2,
+               None,
+               'we-need-to-update-what-we-have-published'),
               ('Recruiting of students', 2, None, 'recruiting-of-students'),
               ('New plans/proposals and existing proposal we are involved in',
                2,
@@ -68,20 +101,18 @@ end of tocinfo -->
 <center><h1>Quantum Computing DoE project</h1></center>  <!-- document title -->
 
 <p>
-<!-- author(s): Morten Hjorth-Jensen -->
+<!-- author(s): Alexei Bazavov, Scott Bogner, Heiko Hergert, Matt Hirn, Morten Hjorth-Jensen, Dean Lee, Huey-Wen Lin, Andrea Shindler -->
 
 <center>
-<b>Morten Hjorth-Jensen</b> [1, 2]
+<b>Alexei Bazavov, Scott Bogner, Heiko Hergert, Matt Hirn, Morten Hjorth-Jensen, Dean Lee, Huey-Wen Lin, Andrea Shindler</b> 
 </center>
 
 <p>
 <!-- institution(s) -->
 
-<center>[1] <b>Department of Physics, University of Oslo</b></center>
-<center>[2] <b>Department of Physics and Astronomy and National Superconducting Cyclotron Laboratory, Michigan State University</b></center>
 <br>
 <p>
-<center><h4>Jun 16, 2021</h4></center> <!-- date -->
+<center><h4>June 16, 2021</h4></center> <!-- date -->
 <br>
 <p>
 <!-- !split -->
@@ -92,8 +123,8 @@ end of tocinfo -->
 A tentative agenda for the meeting is
 
 <ol>
-<li> overview of budget</li>
-<li> overview of what we have done till now (short reports by each work package and present students)</li>
+<li> overview of budget and students</li>
+<li> what we have done till now (short reports by each work package and present students)</li>
 <li> recruiting of students</li>
 <li> new plans/proposals and existing proposals we are involved in</li>
 <li> website or similar things for the project.</li>
@@ -102,41 +133,124 @@ A tentative agenda for the meeting is
 
 <!-- !split -->
 
-<h2 id="overview-of-budget">Overview of budget </h2>
+<h2 id="overview-of-budget-and-students">Overview of budget and students </h2>
+
+<p>
+Sue Hopper made projection for our DOE grant. The projection shows an
+approximate overdraft amount of 21kUSD at the end of Summer 2022 and is
+based on the following:
+
+<p>
+<div class="alert alert-block alert-block alert-text-normal">
+<b>Students</b>
+<p>
+
+<ol>
+<li> Joseph Bonitati: 100% Fall 2021 through Summer 2022</li>
+<li> Nicholas Cariello: 100% Summer 2021 through Summer 2022</li>
+<li> Gabriel Given: 53% Spring 2021 and 67% Summer 2021</li>
+<li> Ben Hall: 100% through Summer 2022</li>
+<li> Caleb Hicks: 53% Spring 2021 and 67% Summer 2021</li>
+<li> Danny Jammoa: 100% Fall 2021 through Summer 2022</li>
+<li> Giovanni Pederiva: 100% through Summer 2022</li>
+<li> Avik Sarkar: 53% Spring 2021 and 67% Summer 2021</li>
+</ol>
+</div>
+
+
+<p>
+You should have received Sue's overview. I will send this monthly/quarterly update as soon as they are available.
 
 <p>
 <!-- !split -->
 
-<h2 id="present-students-and-what-we-have-done-till-now">Present students and what we have done till now </h2>
+<h2 id="present-students-funding-status-and-planned-defense">Present students, funding status and planned defense </h2>
+
+<p>
+Our basic assumption  was one graduate student per work package (approximate)
+
+<p>
+<div class="alert alert-block alert-block alert-text-normal">
+<b>Students</b>
+<p>
+
+<ol>
+<li> Joseph Bonitati: 100% Fall 2021 through Summer 2022   (Dean, WP2)</li>
+<li> Nicholas Cariello: 100% Summer 2021 through Summer 2022  (Scott, Heiko and Dean, WP2 and WP4), presents thesis 2024 (?)</li>
+<li> Gabriel Given: 53% Spring 2021 and 67% Summer 2021, present thesis 2023 (Dean, WP2)</li>
+<li> Ben Hall: 100% through Summer 2022, (Morten, WP4) presents thesis spring/summer 2022 (this summer NASA internship)</li>
+<li> Caleb Hicks: 53% Spring 2021 and 67% Summer 2021 (Dean, WP2). Thesis 2024.</li> 
+<li> Danny Jammoa: 100% Fall 2021 through Summer 2022, presents thesis 2025  (Matt, Dean and Morten, WP1). This summer LANL internship</li>
+<li> Giovanni Pederiva: 100% through Summer 2022, thesis summer/fall 2022 (Andrea, WP3)</li>
+<li> Avik Sarkar: 53% Spring 2021 and 67% Summer 2021 (Dean, WP2), thesis 2023</li>
+</ol>
+</div>
+
+
+<p>
+<!-- !split -->
+
+<h2 id="we-need-to-update-what-we-have-published">We need to update what we have published </h2>
+
+<p>
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+
+<ol>
+<li> The rodeo algorithm preprint <a href="https://arxiv.org/abs/2009.04092" target="_self"><tt>https://arxiv.org/abs/2009.04092</tt></a></li>
+<li> Simulation of Collective Neutrino Oscillations on a Quantum Computer <a href="https://arxiv.org/abs/2102.12556" target="_self"><tt>https://arxiv.org/abs/2102.12556</tt></a></li>
+</ol>
+</div>
+
+
+<p>
+Discussion of where we are can be postponed till later. Need to make plans for how we meet.
 
 <p>
 <!-- !split -->
 
 <h2 id="recruiting-of-students">Recruiting of students  </h2>
 
-<p>
+<ol>
+<li> New students as of now, not there September 2020</li>
+
+<ul>
+  <li> Paul Aymeric McRae (incoming)</li>
+  <li> Danny Jammoa  WP1 (spring 2021)</li>
+  <li> Nicholas Cariello WP2+WP4  (summer 2021)</li>
+</ul>
+
+</ol>
+
 <!-- !split -->
 
 <h2 id="new-plans-proposals-and-existing-proposal-we-are-involved-in">New plans/proposals and existing proposal we are involved in </h2>
 
-<p>
+<ol>
+<li> NSF Convergence Accelerator - Track C: QuSTEAM: Convergent undergraduate education in Quantum Science, Technology, Engineering, Arts, and Mathematics  (Angela Wilson lead, several of us involved)</li>
+<li> DoE Driven entanglement-enabled pathways in quantum materials (DEEPQM), UM lead institution (Alexei, Dean and Morten involved)</li>
+<li> DoE Effective Field Theory and Renormalization Group Studies of Quantum Algorithms (Dean, Heiko, Morten and Scott)</li>
+</ol>
+
 <!-- !split -->
 
 <h2 id="website">Website </h2>
+
+<p>
+<a href="https://github.com/QuantumComputingQuantumMachineLearning/QuantumComputingDoEProject" target="_self"><tt>https://github.com/QuantumComputingQuantumMachineLearning/QuantumComputingDoEProject</tt></a>
 
 <p>
 <!-- !split -->
 
 <h2 id="other-topics">Other topics </h2>
 
-<p>
+<ol>
+<li> Format for these meetings, suggestions for how to proceed</li>
+</ol>
+
 
 <!-- ------------------- end of main content --------------- -->
-
-
-<center style="font-size:80%">
-<!-- copyright --> &copy; 1999-2021, Morten Hjorth-Jensen. Released under CC Attribution-NonCommercial 4.0 license
-</center>
 
 
 </body>

@@ -1,6 +1,6 @@
 TITLE: Quantum Computing DoE project
-AUTHOR: Morten Hjorth-Jensen  {copyright, 1999-present|CC BY-NC} at Department of Physics, University of Oslo & Department of Physics and Astronomy and National Superconducting Cyclotron Laboratory, Michigan State University
-DATE: today
+AUTHOR: Alexei Bazavov, Scott Bogner, Heiko Hergert, Matt Hirn, Morten Hjorth-Jensen, Dean Lee, Huey-Wen Lin, Andrea Shindler
+DATE: June 16, 2021
 
 
 !split
@@ -9,8 +9,8 @@ DATE: today
 
 A tentative agenda for the meeting is
 
-o overview of budget
-o overview of what we have done till now (short reports by each work package and present students)
+o overview of budget and students
+o what we have done till now (short reports by each work package and present students)
 o recruiting of students
 o new plans/proposals and existing proposals we are involved in
 o website or similar things for the project.
@@ -18,25 +18,83 @@ o other topics and feel free to propose other topics
 
 
 !split
-===== Overview of budget =====
+===== Overview of budget and students =====
+
+
+Sue Hopper made projection for our DOE grant. The projection shows an
+approximate overdraft amount of 21kUSD at the end of Summer 2022 and is
+based on the following:
+ 
+!bblock  Students
+o Joseph Bonitati: 100% Fall 2021 through Summer 2022
+o Nicholas Cariello: 100% Summer 2021 through Summer 2022
+o Gabriel Given: 53% Spring 2021 and 67% Summer 2021
+o Ben Hall: 100% through Summer 2022
+o Caleb Hicks: 53% Spring 2021 and 67% Summer 2021
+o Danny Jammoa: 100% Fall 2021 through Summer 2022
+o Giovanni Pederiva: 100% through Summer 2022
+o Avik Sarkar: 53% Spring 2021 and 67% Summer 2021
+!eblock
+
+You should have received Sue's overview. I will send this monthly/quarterly update as soon as they are available.
+
+!split
+===== Present students, funding status and planned defense =====
+
+
+Our basic assumption  was one graduate student per work package (approximate)
+
+!bblock  Students
+o Joseph Bonitati: 100% Fall 2021 through Summer 2022   (Dean, WP2)
+o Nicholas Cariello: 100% Summer 2021 through Summer 2022  (Scott, Heiko and Dean, WP2 and WP4), presents thesis 2024 (?)
+o Gabriel Given: 53% Spring 2021 and 67% Summer 2021, present thesis 2023 (Dean, WP2)
+o Ben Hall: 100% through Summer 2022, (Morten, WP4) presents thesis spring/summer 2022 (this summer NASA internship)
+o Caleb Hicks: 53% Spring 2021 and 67% Summer 2021 (Dean, WP2). Thesis 2024. 
+o Danny Jammoa: 100% Fall 2021 through Summer 2022, presents thesis 2025  (Matt, Dean and Morten, WP1). This summer LANL internship
+o Giovanni Pederiva: 100% through Summer 2022, thesis summer/fall 2022 (Andrea, WP3)
+o Avik Sarkar: 53% Spring 2021 and 67% Summer 2021 (Dean, WP2), thesis 2023
+!eblock
+
+
+
 
 
 !split
-===== Present students and what we have done till now =====
+===== We need to update what we have published =====
+
+!bblock 
+o The rodeo algorithm preprint URL:"https://arxiv.org/abs/2009.04092"
+o Simulation of Collective Neutrino Oscillations on a Quantum Computer URL:"https://arxiv.org/abs/2102.12556"
+!eblock
+
+Discussion of where we are can be postponed till later. Need to make plans for how we meet.
 
 
 !split
 ===== Recruiting of students  =====
 
-
+o New students as of now, not there September 2020
+  * Paul Aymeric McRae (incoming)
+  * Danny Jammoa  WP1 (spring 2021)
+  * Nicholas Cariello WP2+WP4  (summer 2021)
+  
 !split
 ===== New plans/proposals and existing proposal we are involved in =====
+
+o NSF Convergence Accelerator - Track C: QuSTEAM: Convergent undergraduate education in Quantum Science, Technology, Engineering, Arts, and Mathematics  (Angela Wilson lead, several of us involved)
+o DoE Driven entanglement-enabled pathways in quantum materials (DEEPQM), UM lead institution (Alexei, Dean and Morten involved)
+o DoE Effective Field Theory and Renormalization Group Studies of Quantum Algorithms (Dean, Heiko, Morten and Scott)
+
+
 
 !split
 =====  Website =====
 
 
+URL:"https://github.com/QuantumComputingQuantumMachineLearning/QuantumComputingDoEProject"
+
 !split
 =====  Other topics =====
 
+o Format for these meetings, suggestions for how to proceed
 
