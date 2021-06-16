@@ -1,0 +1,42 @@
+TITLE: Quantum Computing DoE project
+AUTHOR: Morten Hjorth-Jensen  {copyright, 1999-present|CC BY-NC} at Department of Physics, University of Oslo & Department of Physics and Astronomy and National Superconducting Cyclotron Laboratory, Michigan State University
+DATE: today
+
+
+!split
+===== Tentative agenda =====
+
+
+A tentative agenda for the meeting is
+
+o overview of budget
+o overview of what we have done till now (short reports by each work package and present students)
+o recruiting of students
+o new plans/proposals and existing proposals we are involved in
+o website or similar things for the project.
+o other topics and feel free to propose other topics
+
+
+!split
+===== Overview of budget =====
+
+
+!split
+===== Present students and what we have done till now =====
+
+
+!split
+===== Recruiting of students  =====
+
+
+!split
+===== New plans/proposals and existing proposal we are involved in =====
+
+!split
+=====  Website =====
+
+
+!split
+=====  Other topics =====
+
+
